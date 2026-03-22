@@ -26,6 +26,10 @@ export const styles = StyleSheet.create({
     color: "#FFF",
     padding: 16,
     fontSize: 18,
+
+    flex: 1,
+
+    marginRight: 12,
   },
 
   buttonText: {
@@ -40,5 +44,13 @@ export const styles = StyleSheet.create({
     backgroundColor: "#31cf67",
     alignItems: "center",
     justifyContent: "center",
+  },
+
+  form: {
+    marginTop: 36,
+    marginBottom: 42,
+    width: "100%",
+    flexDirection: "row",
+    
   },
 });
